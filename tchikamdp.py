@@ -1,7 +1,7 @@
 import time
 
 #colors
-from past.builtins import raw_input, xrange
+
 
 red='\033[91m'
 b='\033[21m'
@@ -40,11 +40,6 @@ lista=[0 for x in xrange(length)]
 x=length-1
 string="abcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*"
 list_of_results=[]
-
-
-def file(name, param):
-    pass
-
 
 file1=file(name,"w")
 while(x>-1):
